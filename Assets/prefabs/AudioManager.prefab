@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1991376865617800}
+  m_IsPrefabAsset: 1
+--- !u!1 &1991376865617800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4381028587007210}
+  - component: {fileID: 114002900238099800}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381028587007210
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1991376865617800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002900238099800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1991376865617800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081bd2dd1ba86cf4aa9079417d99e6e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: playerHitObstacle
+    clip: {fileID: 8300000, guid: 6bddb57448e737c4887eea00fb1fae67, type: 3}
+    volume: 0.75
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerHitGround
+    clip: {fileID: 8300000, guid: 0fe5462912684f244b5218086de94672, type: 3}
+    volume: 0.75
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerEndLevel
+    clip: {fileID: 8300000, guid: fc9255dccf326e948adeac7fbdfc6b64, type: 3}
+    volume: 0.75
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerDeath
+    clip: {fileID: 8300000, guid: cd13c8468d514064b8a314bf047febec, type: 3}
+    volume: 0.75
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerJump
+    clip: {fileID: 8300000, guid: c85ac2aaae3a94b49b4b86d9ebc5626c, type: 3}
+    volume: 0.4
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerStartedMoving
+    clip: {fileID: 8300000, guid: c40e164a393a7014ba0c70bf3eab47ec, type: 3}
+    volume: 0.2
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: playerChangedShape
+    clip: {fileID: 8300000, guid: afe9817cb311b8c46ae8b94e67a5dfe3, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: gameMusic
+    clip: {fileID: 8300000, guid: fb2def976fbd2d949a4f3fdf7fda1e45, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: menuMusic
+    clip: {fileID: 8300000, guid: ded42e39e189e1f44a4054c6b99ee480, type: 3}
+    volume: 1
+    pitch: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: coinCollectNormal
+    clip: {fileID: 8300000, guid: d966decb809d4a0429aec104495d0b55, type: 3}
+    volume: 0.6
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: coinCollectBig
+    clip: {fileID: 8300000, guid: 6481429f9715a614d9fbdd32bd8a8985, type: 3}
+    volume: 0.6
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: coinCollectHuge
+    clip: {fileID: 8300000, guid: c5393b361f3ad4242847da8504c8dd3b, type: 3}
+    volume: 0.6
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  backgroundMusicName: 
